@@ -6,11 +6,16 @@
 /* ---------------------------
 common styles or utilities
 -----------------------------*/
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 main{
     display: flex;
@@ -176,4 +181,91 @@ footer p{
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
+}
+
+/*----------------------
+Footer Style Ends
+---------------------- */
+
+/* Media Query For Phone Device */
+
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /* -----------------------
+    Top Header Styles Start
+    --------------------------*/
+    .top-banner{
+        flex-direction: column;
+        width: 100%;
+        height: 695px;
+    }
+    .top-banner-text h1{
+        width: 278px;
+        height: 138px;
+    }
+    .top-banner-text a{
+        width: 168px;
+        height: 44px;
+    }
+    .top-banner-image img{
+        width: 329px;
+        height: 259.17px;
+    }
+    /*-----------------------
+    Top Header Styles End
+    -----------------------*/
+
+    /*-----------------------
+    Players Section Style Starts
+    ------------------------------*/
+    .players{
+        margin-top: 47px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 24px;
+        margin-bottom: 165px;
+    }
+    /*-----------------------
+    Players Section Style Ends
+    ------------------------------*/
+
+    /*-----------------------
+    Football Updates Starts
+    ------------------------------*/
+    .football-updates{
+        flex-direction: column;
+    }
+    .updates-text{
+        width: 329px;
+        height: 299px;
+        margin-right: 0px;
+    }
+    .updates-text h2{
+        width: 294px;
+        height: 80px;
+    }
+    .updates-text p{
+        width: 329px;
+        height: 143px;
+    }
+    .updates-image img{
+        width: 328px;
+        height: 248px;
+    }
+
+    /*-----------------------
+    Football Updates Ends
+    ------------------------------*/
+
+    /*----------------------
+    Footer Style Starts
+    ---------------------- */
+    footer img{
+        width: 275.8px;
+    }
 }
