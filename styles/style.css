@@ -1,0 +1,88 @@
+/* ------------------
+   Adding Fonts 
+--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* ---------------------------
+common styles or utilities
+-----------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    font-size: 28px
+}
+p{
+    font-size: 16px;
+}
+
+/* -----------------------
+Top Header Styles Start
+--------------------------*/
+.top-banner{
+    background: #2D25A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 677px;
+}
+.top-banner-text{
+    width: 485px;
+    color: white;
+}
+.top-banner-text a{
+    background: #E02C6D;
+    width: 168px;
+    height: 44px;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: white;
+}
+.top-banner-image img{
+    width: 556.01px;
+    height: 438px;
+}
+/*-----------------------
+Top Header Styles End
+-----------------------*/
+
+/*-----------------------
+Players Section Style Starts
+------------------------------*/
+
+.players{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    
+    height: 474px; 
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    align-items: flex-start;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+}
+.player p{
+    width: 300px;
+}
