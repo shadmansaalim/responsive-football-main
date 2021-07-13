@@ -41,11 +41,11 @@ Top Header Styles Start
 .top-banner{
     background: #2D25A0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     height: 677px;
 }
-.top-banner-text{
+.top-banner-text h1{
     width: 485px;
     color: white;
 }
@@ -56,6 +56,9 @@ Top Header Styles Start
     padding: 10px 24px;
     text-decoration: none;
     color: white;
+}
+.top-banner-text a:hover{
+    background: #ff005d;
 }
 .top-banner-image img{
     width: 556.01px;
@@ -75,6 +78,7 @@ Players Section Style Starts
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 27px;
+    margin-bottom: 165px;
 }
 .player{
     display: flex;
@@ -84,7 +88,7 @@ Players Section Style Starts
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 165px;
+    
 }
 .player img{
     width: 300px;
@@ -113,6 +117,7 @@ Football Updates Starts
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 158px;
 }
 .updates-text{
     width: 469px;
@@ -135,7 +140,40 @@ Football Updates Starts
     text-decoration: none;
     color: white;
 }
+.updates-text a:hover{
+    background: #ff005d;
+}
 .updates-image img{
     width: 567px;
     height: 427px;
+}
+
+/*-----------------------
+Football Updates Ends
+------------------------------*/
+
+/*----------------------
+Footer Style Starts
+---------------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img{
+    width: 483.87px;
+}
+footer a{
+    color: black;
+}
+.fab{
+    font-size: 32px;
+    margin-right: 10px;
+}
+footer p{
+    color: #000000;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
 }
