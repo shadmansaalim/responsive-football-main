@@ -21,12 +21,18 @@ h1{
     font-size: 64px;
     font-weight: bold;
 }
+h2{
+    font-size: 48px;
+    font-weight: bold;
+}
 h3{
     font-weight: bold;
     font-size: 28px
 }
 p{
     font-size: 16px;
+    color: #6C6C6C;
+    font-weight: normal;
 }
 
 /* -----------------------
@@ -73,16 +79,63 @@ Players Section Style Starts
 .player{
     display: flex;
     flex-direction: column;
-    
     height: 474px; 
     padding: 15px;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 165px;
 }
 .player img{
     width: 300px;
     height: 256px;
 }
-.player p{
+.player-info{
+    margin: 16px 0px;
+}
+.player-info h3{
+    margin: 10px 0px;
+}
+.player-info p{
     width: 300px;
+    margin: 10px 0px;
+}
+
+/*-----------------------
+Players Section Style Ends
+------------------------------*/
+
+/*-----------------------
+Football Updates Starts
+------------------------------*/
+
+.football-updates{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.updates-text{
+    width: 469px;
+    margin-right: 66px;
+}
+.updates-text h2{
+    color: #0A0826;
+    width: 469px;
+    margin: 8px 0px;
+}
+.updates-text p{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.updates-text a{
+    background: #E02C6D;
+    width: 173px;
+    height: 44px;
+    padding: 10px 24px;
+    text-decoration: none;
+    color: white;
+}
+.updates-image img{
+    width: 567px;
+    height: 427px;
 }
