@@ -166,7 +166,6 @@ Football Updates Starts
     justify-content: space-around;
     align-items: center;
     margin-bottom: 100px;
-    
 }
 .updates-text{
     width: 469px;
@@ -184,7 +183,6 @@ Football Updates Starts
 .updates-text a{
     background: #E02C6D;
     width: 173px;
-    height: 44px;
     padding: 10px 24px;
     text-decoration: none;
     color: white;
@@ -242,16 +240,16 @@ Club Style Starts
     height: 150px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 12px;
-    transition: width 0.2s ease-in-out;
+    /* transition: width 0.2s ease-in-out; */
 }
 .club:hover{
-    width: 260px;
-    height: 180px;
+    /* width: 260px;
+    height: 180px; */
     background-color: #E02C6D;
 }
 .club:hover .club-logo{
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
 }
 .club h4{
     margin: 0px;
@@ -381,18 +379,15 @@ Footer Style Ends
     }
     .updates-text{
         width: 329px;
-        height: 299px;
         margin-right: 0px;
         margin-top: 0px;
     }
     .updates-text h2{
         width: 294px;
-        height: 80px;
         margin-bottom: 27px;
     }
     .updates-text p{
         width: 329px;
-        height: 143px;
     }
     .updates-image img{
         margin-top: 59px;
