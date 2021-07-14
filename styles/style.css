@@ -133,8 +133,10 @@ Players Section Style Starts
     height: 100%; 
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
     align-items: flex-start;
-    
-    
+}
+.player:hover{
+    color: white;
+    background-color: #000000;
 }
 .player img{
     width: 300px;
@@ -151,6 +153,12 @@ Players Section Style Starts
     width: 300px;
     margin: 10px 0px;
     text-align: justify;
+}
+.player-info .link-button{
+    background-color: #990011FF;
+}
+.player-info .link-button:hover{
+    background-color: rgb(197, 5, 28);
 }
 
 /*-----------------------
