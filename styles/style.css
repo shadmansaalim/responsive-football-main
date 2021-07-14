@@ -401,7 +401,15 @@ Footer Style Ends
     /*----------------------
     Popular Highlights Style Starts
     ---------------------- */
-
+    .highlights-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights-header p{
+        margin-top: 0px;
+        width: 280px;
+    }
     .highlights{
         grid-template-columns: 1fr;
     }
@@ -415,6 +423,15 @@ Footer Style Ends
     /*----------------------
     Club Style Starts
     ---------------------- */
+    .clubs-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clubs-header p{
+        width: 330px;
+        margin-top: 0px;
+    }
     .clubs{
         display: flex;
         flex-direction: column;
