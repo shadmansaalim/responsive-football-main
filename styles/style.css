@@ -164,7 +164,7 @@ Football Updates Starts
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     
 }
 .updates-text{
@@ -207,6 +207,7 @@ Popular Highlights Style Starts
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 25px;
+    margin-bottom: 100px;
 }
 .match{
     display: flex;
@@ -223,7 +224,48 @@ Popular Highlights Style Ends
 ---------------------- */
 
 /*----------------------
-Highlights Style Ends
+Club Style Starts
+---------------------- */
+.clubs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+.club{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 240px;
+    height: 150px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 12px;
+    transition: width 0.2s ease-in-out;
+}
+.club:hover{
+    width: 260px;
+    height: 180px;
+    background-color: #E02C6D;
+}
+.club:hover .club-logo{
+    width: 130px;
+    height: 130px;
+}
+.club h4{
+    margin: 0px;
+    color: white;
+    background-color: #2D25A0; 
+    width: 100%;
+    text-align: center;
+}
+.club-logo{
+    width: 80px;
+    height: 80px;
+}
+
+/*----------------------
+Club Style Ends
 ---------------------- */
 
 /*----------------------
@@ -360,6 +402,32 @@ Footer Style Ends
     /*-----------------------
     Football Updates Ends
     ------------------------------*/
+    /*----------------------
+    Popular Highlights Style Starts
+    ---------------------- */
+
+    .highlights{
+        grid-template-columns: 1fr;
+    }
+    .match{
+        margin-bottom: 20px;
+    }
+    /*----------------------
+    Popular Highlights Style Ends
+    ---------------------- */
+
+    /*----------------------
+    Club Style Starts
+    ---------------------- */
+    .clubs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /*----------------------
+    Club Style Ends
+    ---------------------- */
+
 
     /*----------------------
     Footer Style Starts
@@ -367,4 +435,7 @@ Footer Style Ends
     footer img{
         width: 275.8px;
     }
+    /*----------------------
+    Footer Style Starts
+    ---------------------- */
 }
