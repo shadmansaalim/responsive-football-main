@@ -44,6 +44,7 @@ p{
     padding: 10px 24px;
     text-decoration: none;
     color: white;
+    transform: ;
 }
 .link-button:hover{
     background: #ff005d;
@@ -54,6 +55,20 @@ Top Header Styles Start
 .top-header{
     background: #2D25A0; 
     height: 677px;
+}
+.top-header:hover{
+    animation: slider 4s linear 0.3s infinite normal;
+}
+@keyframes slider {
+    0%{
+        background-color: #FFD55A;
+    }
+    50%{
+        background-color: #293250;
+    }
+    100%{
+       background-color: #6DD47E;
+    }
 }
 /* Top Navigation Styles Start */
 nav{
