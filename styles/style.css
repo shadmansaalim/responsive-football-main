@@ -230,6 +230,7 @@ Club Style Starts
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 20px;
+    margin-bottom: 60px;
 }
 .club{
     display: flex;
@@ -266,6 +267,65 @@ Club Style Starts
 /*----------------------
 Club Style Ends
 ---------------------- */
+
+
+/* Fixture Style Starts */
+.flexible{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fixture-header{
+    background-color: #2D25A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1050px;
+    color: white;
+}
+.fixture-header .link-button{
+    height: 100%;
+}
+.fixture-name{
+    width: 787.5px;
+    color: white;
+    text-align: center;
+}
+.fixture-name h3{
+    background-color: #2D25A0;
+    margin: 0px;
+}
+.fixtures{
+    display: grid;
+    grid-template-columns: 1fr;
+    box-shadow: 10px 10px 40px gray;
+}
+.fixture{
+    display: flex;
+    align-items: center;
+}
+.fixture h4{
+    text-align: center;
+}
+.status{
+    margin-left: 20px;
+    width: 46px;
+    background-color: rgb(91, 163, 91);
+    padding: 8px;
+}
+.fixture p{
+    color: black;
+    margin-left: 220px;
+}
+hr{
+    width: 100%;
+}
+#orange-color{
+    background-color: orange;
+}
+ /* Fixture Style Ends */
+
 
 /*----------------------
 Footer Style Starts
@@ -445,12 +505,34 @@ Footer Style Ends
     Club Style Ends
     ---------------------- */
 
+    /* Fixture Style Starts */
+    .fixture-name{
+        width: 97%;
+    }
+    .fixture-header{
+        width: 100%;
+        flex-direction: column;
+    }
+    .fixture-header .link-button{
+        margin-bottom: 20px;
+    }
+    .fixture{
+        justify-content: center;
+    }
+    .fixture p{
+        margin-left: 40px;
+    }
+     /* Fixture Style Ends */
+
 
     /*----------------------
     Footer Style Starts
     ---------------------- */
     footer img{
         width: 275.8px;
+    }
+    footer p{
+        text-align: center;
     }
     /*----------------------
     Footer Style Starts
