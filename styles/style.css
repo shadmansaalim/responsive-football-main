@@ -21,6 +21,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 158px;
 }
 h1{
     font-size: 64px;
@@ -44,7 +45,6 @@ p{
     padding: 10px 24px;
     text-decoration: none;
     color: white;
-    transform: ;
 }
 .link-button:hover{
     background: #ff005d;
@@ -88,6 +88,9 @@ nav a{
     margin-right: 36px;
     font-weight: 500;
     font-size: 16px;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 /* Top Navigation Styles Ends */
 .top-banner{
@@ -161,7 +164,8 @@ Football Updates Starts
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 158px;
+    margin-bottom: 80px;
+    
 }
 .updates-text{
     width: 469px;
@@ -195,6 +199,32 @@ Football Updates Starts
 /*-----------------------
 Football Updates Ends
 ------------------------------*/
+
+/*----------------------
+Popular Highlights Style Starts
+---------------------- */
+.highlights{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 25px;
+}
+.match{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.match h4{
+    width: 347.4px;
+    margin-bottom: 5px;
+}
+/*----------------------
+Popular Highlights Style Ends
+---------------------- */
+
+/*----------------------
+Highlights Style Ends
+---------------------- */
 
 /*----------------------
 Footer Style Starts
