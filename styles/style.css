@@ -424,6 +424,10 @@ Footer Style Ends
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
+    }
+    .club{
+        margin-bottom: 20px;
     }
     /*----------------------
     Club Style Ends
