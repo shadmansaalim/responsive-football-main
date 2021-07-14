@@ -39,32 +39,56 @@ p{
     color: #6C6C6C;
     font-weight: normal;
 }
-
-/* -----------------------
-Top Header Styles Start
---------------------------*/
-.top-banner{
-    background: #2D25A0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 677px;
-}
-.top-banner-text h1{
-    width: 485px;
-    color: white;
-}
-.top-banner-text a{
+.link-button{
     background: #E02C6D;
-    width: 168px;
-    height: 44px;
     padding: 10px 24px;
     text-decoration: none;
     color: white;
 }
-.top-banner-text a:hover{
+.link-button:hover{
     background: #ff005d;
 }
+/* -----------------------
+Top Header Styles Start
+--------------------------*/
+.top-header{
+    background: #2D25A0; 
+    height: 677px;
+}
+/* Top Navigation Styles Start */
+nav{
+    padding-top: 42px;
+    padding-bottom: 49px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-icon{
+    display: none;
+    color: white;
+    font-size: 24px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 36px;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* Top Navigation Styles Ends */
+.top-banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.top-banner-text h1{
+    width: 485px;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 27px;
+}
+
+
 .top-banner-image img{
     width: 556.01px;
     height: 438px;
@@ -199,22 +223,49 @@ Footer Style Ends
     /* -----------------------
     Top Header Styles Start
     --------------------------*/
-    .top-banner{
-        flex-direction: column;
+    .top-header{
         width: 100%;
         height: 695px;
+    }
+    nav{
+        padding-top: 33px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 16px;
+        padding-right: 21px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .menu-icon{
+        margin: 3px;
+        display: contents;
+    }
+    nav .link-button{
+        padding: 7.47253px 17.9341px;
+        margin-right: 0px;
+    }
+    .top-banner{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .top-banner-text h1{
         width: 278px;
         height: 138px;
+        margin-bottom: 57px;
+        margin-top: 46px;
     }
     .top-banner-text a{
         width: 168px;
-        height: 44px;
+        height: 100%;
+        
     }
     .top-banner-image img{
+        margin-top: 50px;
         width: 329px;
-        height: 259.17px;
+        height: 259.17px; 
     }
     /*-----------------------
     Top Header Styles End
@@ -228,7 +279,7 @@ Footer Style Ends
         display: grid;
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 24px;
-        margin-bottom: 165px;
+        margin-bottom: 60px;
     }
     /*-----------------------
     Players Section Style Ends
@@ -248,12 +299,14 @@ Footer Style Ends
     .updates-text h2{
         width: 294px;
         height: 80px;
+        margin-bottom: 27px;
     }
     .updates-text p{
         width: 329px;
         height: 143px;
     }
     .updates-image img{
+        margin-top: 59px;
         width: 328px;
         height: 248px;
     }
