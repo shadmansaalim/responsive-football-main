@@ -45,6 +45,7 @@ p{
     padding: 10px 24px;
     text-decoration: none;
     color: white;
+    margin-right: 0px;
 }
 .link-button:hover{
     background: #ff005d;
@@ -151,7 +152,7 @@ Players Section Style Starts
 }
 .player-info p{
     width: 300px;
-    margin: 10px 0px;
+    margin: 25px 0px;
     text-align: justify;
 }
 .player-info .link-button{
@@ -520,6 +521,160 @@ Footer Style Ends
     .fixture-header{
         width: 100%;
         flex-direction: column;
+    }
+    .fixture-header .link-button{
+        margin-bottom: 20px;
+    }
+    .fixture{
+        justify-content: center;
+    }
+    .fixture p{
+        margin-left: 40px;
+    }
+     /* Fixture Style Ends */
+
+
+    /*----------------------
+    Footer Style Starts
+    ---------------------- */
+    footer img{
+        width: 275.8px;
+    }
+    footer p{
+        text-align: center;
+    }
+    /*----------------------
+    Footer Style Starts
+    ---------------------- */
+}
+
+/* Media Query For Ipad/Tablets */
+
+@media (min-width: 689px) and (max-width: 1024px){
+    h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    /* -----------------------
+    Top Header Styles Start
+    --------------------------*/
+    .top-header{
+        width: 100%;
+        height: 500px;
+    }
+    .top-banner{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .top-banner-text h1{
+        width: 278px;
+        height: 138px;
+        margin-bottom: 57px;
+        margin-top: 46px;
+    }
+    .top-banner-text a{
+        width: 168px;
+        height: 100%;
+        
+    }
+    .top-banner-image img{
+        margin-top: 50px;
+        width: 329px;
+        height: 259.17px; 
+    }
+    /*-----------------------
+    Top Header Styles End
+    -----------------------*/
+
+    /*-----------------------
+    Players Section Style Starts
+    ------------------------------*/
+    .players{
+        margin-top: 47px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 24px;
+        margin-bottom: 60px;
+    }
+    /*-----------------------
+    Players Section Style Ends
+    ------------------------------*/
+
+    /*-----------------------
+    Football Updates Starts
+    ------------------------------*/
+    
+    .updates-text{
+        width: 329px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .updates-text h2{
+        width: 294px;
+    }
+    .updates-text p{
+        width: 329px;
+    }
+    .updates-image img{
+        margin-top: 59px;
+        width: 328px;
+        height: 248px;
+    }
+
+    /*-----------------------
+    Football Updates Ends
+    ------------------------------*/
+    /*----------------------
+    Popular Highlights Style Starts
+    ---------------------- */
+    .highlights-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .highlights-header p{
+        margin-top: 0px;
+        width: 280px;
+    }
+    .highlights{
+        grid-template-columns: 1fr;
+    }
+    .match{
+        margin-bottom: 20px;
+    }
+    /*----------------------
+    Popular Highlights Style Ends
+    ---------------------- */
+
+    /*----------------------
+    Club Style Starts
+    ---------------------- */
+    .clubs-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .clubs-header p{
+        width: 330px;
+        margin-top: 0px;
+    }
+    .clubs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .club{
+        margin-bottom: 20px;
+    }
+    /*----------------------
+    Club Style Ends
+    ---------------------- */
+
+    /* Fixture Style Starts */
+    .fixture-header{
+        width: 100%;
     }
     .fixture-header .link-button{
         margin-bottom: 20px;
